@@ -1,0 +1,122 @@
+@charset "utf-8";
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  color: #000000;
+/*  background-color: #ddd;
+*/  background: linear-gradient(crimson,yellow);
+}
+
+div#wrap{
+  width: 1000px;
+  margin: 0 auto 0 auto;
+  background-color: #fff;
+  padding: 20px;
+}
+
+
+
+header{
+  height: 400px;
+}
+
+
+
+nav{
+  float: left;
+
+  width: 200px;
+  height: 300px;
+  margin: 30px 0 0 0;
+
+  background-color: #b00;
+}
+
+nav ul{
+  list-style-type: none;
+}
+
+  nav ul li{
+    height: 100px;
+  }
+
+    nav ul li a{
+      display: block;
+      width: 200px;
+      height: 0px; /*画像張ったら100px*/
+      padding: 50px 0; /*画像張ったら消す*/
+      text-align: center;
+      line-height: 0;
+      text-decoration: none;
+      color: #fff;
+      font-weight: bold;
+    }
+
+    nav ul li a:hover{
+      background-color: #e00; /*画像張ったら消す*/
+/*      opacity: 0.5; 画像張ったらつける（薄くなる）*/
+    }
+
+
+
+
+
+main{
+  float: left;
+
+  width: 800px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+
+  main section{
+    padding: 0 0 10px 0;
+    border-bottom: 5px dotted #b00;
+  }
+
+    main section h2{
+      margin: 10px 0 10px 0;
+      padding: 0 0 0 10px;
+      border-left: 10px solid #b00;
+    }
+
+    main section h3{
+      margin: 10px 0 10px 0;
+      padding: 0 0 0 5px;
+      border-left: 3px solid #b00;
+    }
+
+    main section ul{
+      list-style-type: none;
+    }
+
+    main section ul li{
+      text-indent: 2em;
+      padding: 0 0 10px 0;
+    }
+
+    main section p{
+      padding: 5px;
+      text-indent: 1em;
+      line-height: 2rem;
+    }
+
+
+
+
+
+
+footer{
+  clear: both;
+
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+  background-color: #b00;
+}
+

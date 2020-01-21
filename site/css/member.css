@@ -8,69 +8,20 @@ main{
   box-sizing: border-box;
 }
 
-
-  main section{
-    padding: 0 0 10px 0;
-    border-bottom: 5px dotted #b00;
-  }
-
-    main section h2{
-      margin: 10px 0 10px 0;
-      padding: 0 0 0 10px;
-      border-left: 10px solid #b00;
-    }
-
-    main section h3{
-      margin: 10px 0 10px 0;
-      padding: 0 0 0 5px;
-      border-left: 3px solid #b00;
-    }
-
-
-
-
-    main section ul{
-      list-style-type: none;
-    }
-
-    main section ul li{
-      text-indent: 2em;
-      padding: 0 0 10px 0;
-    }
-
-
-
-
     main section table{
-      width: 780px;
-      height: 400px;
-
-     /* background-color: #cc0;*/
+      padding: 5px 5px;
+      margin: 0;
     }
 
     main section table tr{}
 
     main section table tr td{
-      width: 260px;
+      width: 240px;
       height: 50px;
       text-align: center;
-      padding: 10px;
-      /*border-bottom: solid;*/
+      padding: 5px;
     }
 
     main section table tr td.memb_img{
-      width: 300px;
-      vertical-align: bottom;
+      width: 240px;
     }
-
-
-/*tableよくわかんない*/
-
-
-
-    main section p{
-      padding: 5px;
-      text-indent: 1em;
-      line-height: 2rem;
-    }
-

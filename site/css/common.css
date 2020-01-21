@@ -7,8 +7,7 @@
 
 body{
   color: #000000;
-/*  background-color: #ddd;
-*/  background: linear-gradient(crimson,yellow);
+  background: linear-gradient(crimson,yellow);
 }
 
 div#wrap{
@@ -47,8 +46,8 @@ nav ul{
     nav ul li a{
       display: block;
       width: 200px;
-      height: 0px; /*画像張ったら100px*/
-      padding: 50px 0; /*画像張ったら消す*/
+      height: 0px;
+      padding: 50px 0;
       text-align: center;
       line-height: 0;
       text-decoration: none;
@@ -57,8 +56,7 @@ nav ul{
     }
 
     nav ul li a:hover{
-      background-color: #e00; /*画像張ったら消す*/
-/*      opacity: 0.5; 画像張ったらつける（薄くなる）*/
+      background-color: #e00;
     }
 
 
@@ -75,8 +73,8 @@ main{
 
 
   main section{
-    padding: 0 0 10px 0;
-    border-bottom: 5px dotted #b00;
+    padding: 10px 10px;
+    margin: 10px 0 10px 5px;
   }
 
     main section h2{
@@ -88,6 +86,7 @@ main{
     main section h3{
       margin: 10px 0 10px 0;
       padding: 0 0 0 5px;
+      margin-left: 12px;
       border-left: 3px solid #b00;
     }
 
@@ -106,11 +105,6 @@ main{
       line-height: 2rem;
     }
 
-
-
-
-
-
 footer{
   clear: both;
 
@@ -120,3 +114,7 @@ footer{
   background-color: #b00;
 }
 
+
+.dot_border{
+  border-bottom: 5px dotted #b00;
+}

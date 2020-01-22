@@ -14,16 +14,10 @@ body{
 
   font-size: 1rem;
   text-align: left;
-  color: #000000;
-  background-color: #ffffe0;
+  color: #111;
 
   font-family: 'Kosugi Maru', sans-serif;
 
-}
-
-
-
-div#wrap{
 
   background: linear-gradient(113deg, #f6e87f, #f6c37f);
   background-size: 400% 400%;
@@ -47,6 +41,13 @@ div#wrap{
       50%{background-position:79% 100%}
       100%{background-position:22% 0%}
   }
+
+}
+
+
+
+div#wrap{
+
 }
 
 
@@ -109,7 +110,6 @@ a#pagetop{
 main section{
   width: 1000px;
   margin: 0 auto;
-  padding: 100px 0;
 }
 
 main section div{
@@ -220,7 +220,8 @@ table tr td{
 
 .back_img{
   width: 100%;
-  height: 70vh;
+  height: 0;
+  padding-top: 24%;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 0 40%;
@@ -232,7 +233,7 @@ table tr td{
 .header_img{
   display: none;
 
-  height: 95vh;
+  height: 0;
   background-image: url(../images/header.png);
 }
 

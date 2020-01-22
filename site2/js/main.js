@@ -9,10 +9,6 @@ $(function(){
 
     $("main").fadeIn(8000);
 
-
-
-
-
   window.addEventListener("scroll", () => {
     $("#pagetop").fadeIn(4000);
   });

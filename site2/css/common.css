@@ -11,86 +11,53 @@ html , body{
 }
 
 body{
+  padding: 0 0;
+  margin: 0 0;
 
   font-size: 1rem;
   text-align: left;
   color: #111;
 
   font-family: 'Kosugi Maru', sans-serif;
-
-
   background: linear-gradient(113deg, #f6e87f, #f6c37f);
   background-size: 400% 400%;
-
-  -webkit-animation: AnimationName 4s ease infinite;
-  -moz-animation: AnimationName 4s ease infinite;
   animation: AnimationName 4s ease infinite;
 
-  @-webkit-keyframes AnimationName {
-      0%{background-position:22% 0%}
-      50%{background-position:79% 100%}
-      100%{background-position:22% 0%}
-  }
-  @-moz-keyframes AnimationName {
-      0%{background-position:22% 0%}
-      50%{background-position:79% 100%}
-      100%{background-position:22% 0%}
-  }
-  @keyframes AnimationName {
-      0%{background-position:22% 0%}
-      50%{background-position:79% 100%}
-      100%{background-position:22% 0%}
-  }
-
 }
 
 
 
-div#wrap{
+div#wrap{}
+
+
+.container{
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
 
-header p#seeyou{
-
+#seeyou{
   display: none;
 
   height: 95vh;
   margin: 0 auto;
 
-  padding-left: 35rem;
-  text-indent: -14rem;
+  padding-left: 33%;
+  text-indent: -100px;
 
   font-size: 2rem;
   padding-top: 15%;
-  line-height: 5rem;
+  line-height: rem;
 
-  background-color: #ffffe0;
-
-}
-/*
-@keyframes fadeIn {
-    0% {opacity: 0}
-    100% {opacity: 1}
+  background-color: #f6e87f;
 }
 
-@-webkit-keyframes fadeIn {
-    0% {opacity: 0}
-    100% {opacity: 1}
-}
-*/
 
 
 
-  header h1{}
 
-
-
-main{
-  display: none;
-  width: 100%;
-}
-
-a#pagetop{
+#pagetop{
 
   display: none;
 
@@ -216,11 +183,15 @@ table tr td{
 }
 
 
+.nine{
+  width: 40vw;
+}
+
 
 .back_img{
   width: 100%;
   height: 0;
-  padding-top: 32%;
+  padding-top: 58%;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 0 40%;
